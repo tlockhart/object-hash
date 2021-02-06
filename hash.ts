@@ -2,10 +2,6 @@ interface ObjectType {
     [key: string]: string | number
 }
 
-declare interface objectContructor {
-    assign(...objects: Object[]): Object;
-}
-
 class Hash{
     hash!: {[key: string]: string | number};
     key!: string;

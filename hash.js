@@ -9,6 +9,9 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
+// declare interface objectContructor {
+//     assign(...objects: Object[]): Object;
+// }
 var Hash = /** @class */ (function () {
     function Hash(objects) {
         var _this = this;
